@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+/*
+  
+  Reset page for the Portfolio
+  
+  filename: reset.css
+
+*/
+
+
+/* HTML and Body styles */
+
+html {
+  background: white;
+  font-family: Verdana, Geneva, sans-serif;
+  height: 100%;
+}
+
+body {
+  -webkit-display: flex;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  background-color: cornsilk;
+  box-shadow: rgb(51, 51, 51) 10px 0px 25px, rgb(51, 51, 51) -10px 0px 25px;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  min-height: 100%;   
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 400px;
+  max-width: 1024px;   
+  width: 100%; 
+}
+
+p {
+  text-align: center;
+}
+
+header h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: orangered;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Navigation list styles */
+
+header {
+  background-color: lightblue;
+  min-height: 59px;
+}
+
+header li {
+  float: left;
+}
+
+header::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+header nav ul {
+  width: 100%;
+}
+
+header nav ul li {
+  font-size: 0.9em;
+  width: 11.11;
+  box-shadow: inset 1px 0px 3px, 
+              inset -1px 0px 3px,
+              inset 0px 1px 3px,
+              inset 0px -1px 3px;
+  text-align: center;
+  vertical-align: center;
+}
+
+header nav ul li a {
+  color: black;
+  display: block;
+  padding: 5px 20px;
+  width: 100%;
+}
+
+header nav ul li a:hover {
+  color: rgb(11, 12, 145);
+}
+
+a#navicon {
+  display: none;
+}
+ 
