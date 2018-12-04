@@ -59,29 +59,18 @@ header {
   background-color: rgb(117, 140, 72);
 }
 
-nav.horizontal {
+table.horizontal {
   min-height: 2em;
 }
 
-nav.horizontal ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-nav.horizontal li {
-  color: rgb(31, 73, 125);
-  float: left;
-  line-height: 2em;
-  text-transform: uppercase;
-  width: 14%;
-}
-
-nav.horizontal a {
+table.horizontal a {
   display: block;
   font-size: 0.8em;
   font-weight: bold;
   text-align: center;
+  color: rgb(31, 73, 125);
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 nav.horizontal a:visited, nav.horizontal a:link {
