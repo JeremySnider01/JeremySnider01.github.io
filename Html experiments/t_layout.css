@@ -59,11 +59,12 @@ header {
   background-color: rgb(117, 140, 72);
 }
 
-table.horizontal {
+table.nav {
   min-height: 2em;
+  width: 100%;
 }
 
-table.horizontal a {
+table.nav a {
   display: block;
   font-size: 0.8em;
   font-weight: bold;
@@ -73,11 +74,11 @@ table.horizontal a {
   text-decoration: none;
 }
 
-nav.horizontal a:visited, nav.horizontal a:link {
+table.nav a:visited, table.nav a:link {
   color: rgb(31, 73, 125);
 }
 
-nav.horizontal a:hover, nav.horizontal a:active {
+table.nav a:hover, table.nav a:active {
   background-color: rgb(31, 73, 125);
   color: white;
 }

@@ -46,7 +46,7 @@ header h1 {
   margin-bottom: 20px;
 }
 
-/* Horizonal Navigation Styles */
+/* Table Navigation Styles */
 
 header::after {
   clear: both;
@@ -59,36 +59,26 @@ header {
   background-color: rgb(117, 140, 72);
 }
 
-nav.horizontal {
+table.nav {
   min-height: 2em;
+  width: 100%;
 }
 
-nav.horizontal ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-nav.horizontal li {
-  color: rgb(31, 73, 125);
-  float: left;
-  line-height: 2em;
-  text-transform: uppercase;
-  width: 14%;
-}
-
-nav.horizontal a {
+table.nav a {
   display: block;
   font-size: 0.8em;
   font-weight: bold;
   text-align: center;
+  color: rgb(31, 73, 125);
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
-nav.horizontal a:visited, nav.horizontal a:link {
+table.nav a:visited, table.nav a:link {
   color: rgb(31, 73, 125);
 }
 
-nav.horizontal a:hover, nav.horizontal a:active {
+table.nav a:hover, table.nav a:active {
   background-color: rgb(31, 73, 125);
   color: white;
 }
