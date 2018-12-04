@@ -47,6 +47,7 @@ header h1 {
 }
 
 /* Table Navigation Styles */
+
 header {
   height: 20%;
   background-color: Turquoise;
@@ -81,4 +82,30 @@ table.nav a:hover, table.nav a:active {
 a#navicon {
   display: none;
 }
+
+/* Footer Styles */
+
+footer {
+  clear: both;
+  width: 100%;
+}
+
+footer p {
+  text-align: center;
+  vertical-align: center;
+}
+
+footer a {
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
  
