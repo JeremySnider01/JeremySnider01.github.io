@@ -4,7 +4,7 @@
   
   Reset page for the Portfolio
   
-  filename: layout.css
+  filename: p_layout.css
 
 */
 
@@ -81,4 +81,5 @@ table.nav a:hover, table.nav a:active {
 a#navicon {
   display: none;
 }
+ 
  
