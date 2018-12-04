@@ -22,7 +22,7 @@ body {
   display: flex;
   -webkit-flex-flow: row wrap;
   flex-flow: row wrap;
-  background-color: cornsilk;
+  background-color: lightgray;
   box-shadow: rgb(51, 51, 51) 10px 0px 25px, rgb(51, 51, 51) -10px 0px 25px;
   border-left: 1px solid gray;
   border-right: 1px solid gray;
@@ -40,7 +40,7 @@ body {
 header h1 {
   font-size: 1.5em;
   font-weight: bold;
-  color: orangered;
+  color: darkorange;
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -56,7 +56,7 @@ header::after {
 
 header {
   height: 20%;
-  background-color: rgb(117, 140, 72);
+  background-color: Turquoise;
 }
 
 table.nav {
@@ -69,13 +69,13 @@ table.nav a {
   font-size: 0.8em;
   font-weight: bold;
   text-align: center;
-  color: rgb(31, 73, 125);
+  color: black;
   text-transform: uppercase;
   text-decoration: none;
 }
 
 table.nav a:visited, table.nav a:link {
-  color: rgb(31, 73, 125);
+  color: blue;
 }
 
 table.nav a:hover, table.nav a:active {

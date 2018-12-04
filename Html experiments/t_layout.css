@@ -46,7 +46,7 @@ header h1 {
   margin-bottom: 20px;
 }
 
-/* Horizonal Navigation Styles */
+/* Table Navigation Styles */
 
 header::after {
   clear: both;
