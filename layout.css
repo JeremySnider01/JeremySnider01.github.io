@@ -25,13 +25,11 @@ body {
   box-shadow: rgb(51, 51, 51) 10px 0px 25px, rgb(51, 51, 51) -10px 0px 25px;
   border-left: 1px solid gray;
   border-right: 1px solid gray;
-  min-height: 100%;   
   margin-top: 0px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
   min-width: 400px;
-  width:90%
 
 }
 
@@ -81,6 +79,35 @@ table.nav a:hover, table.nav a:active {
 
 a#navicon {
   display: none;
+}
+
+/* Section Styles */
+section {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section dl {
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+section dt {
+  font-size: 1.2em;
+  font-weight: bold;
+  font-family: Georgia, serif;
+  
+}
+
+section dt a {
+  color: black;
+}
+
+section dt a:hover, section dt a:active {
+  color: blue;
 }
 
 /* Footer Styles */
