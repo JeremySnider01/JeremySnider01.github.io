@@ -113,6 +113,13 @@ section dd {
   margin-bottom: 2%;
 }
 
+section img {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 3%
+}
+
 /* Footer Styles */
 
 footer {
