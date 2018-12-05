@@ -28,9 +28,17 @@ li, main, nav, nav a, section, ul {
   width: 100%;
 }
 
+html {
+  background-image: url("background.jpg");
+  /*  Image file labled for reuse from https://pixabay.com/en/code-html-digital-coding-web-1076536/  */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 body {
   line-height: 1.2em;
-  width: 80%
+  width: 60%
 }
 
 ul, ol {

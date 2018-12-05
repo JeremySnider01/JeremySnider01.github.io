@@ -12,7 +12,6 @@
 /* HTML and Body styles */
 
 html {
-  background: white;
   font-family: Verdana, Geneva, sans-serif;
 }
 
@@ -22,7 +21,7 @@ body {
   -webkit-flex-flow: row wrap;
   flex-flow: row wrap;
   background-color: lightgray;
-  box-shadow: rgb(51, 51, 51) 10px 0px 25px, rgb(51, 51, 51) -10px 0px 25px;
+  box-shadow: white 10px 0px 25px, white -10px 0px 25px;
   border-left: 1px solid gray;
   border-right: 1px solid gray; 
   margin-top: 0px;
