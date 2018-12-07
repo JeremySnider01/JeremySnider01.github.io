@@ -117,18 +117,27 @@ section dd {
 
 section img {
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 3%;
-  margin-bottom: 3%
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 section img.review {
   background-color: white;
 }
 
-section figure img {
-  border: 3px solid black;
+table.image {
+  border-collapse: collapse;
+}
+
+td {
+  padding: 0px 0px 0px 0px;
+  width: 16.5%;
+}
+
+thead td {
+  text-align: center;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 1.2em;
 }
 
 /* Footer Styles */
