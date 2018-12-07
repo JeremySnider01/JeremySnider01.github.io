@@ -81,6 +81,25 @@ a#navicon {
   display: none;
 }
 
+/* Section styles */
+section {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+section dl dt.mainH {
+  font-size: 1.5em;
+}
+
+section dt a {
+  font-weight: bold;
+  color: blue;
+}
+
+section dt a:hover, section dt a:active {
+  color: orange;
+}
+
 /* Footer Styles */
 
 footer {
