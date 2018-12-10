@@ -8,80 +8,6 @@
 
 */
 
-
-/* HTML and Body styles */
-
-html {
-  font-family: Verdana, Geneva, sans-serif;
-}
-
-body {
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-flow: row wrap;
-  flex-flow: row wrap;
-  background-color: rgb(36, 248, 229);
-  box-shadow: white 10px 0px 25px, white -10px 0px 25px,
-              inset gray 10px 0px 50px, inset gray -10px 0px 50px;
-  border-left: 1px solid gray;
-  border-right: 1px solid gray;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-left: auto;
-  margin-right: auto;
-  min-width: 400px;
-
-}
-
-
-header h1 {
-  font-size: 1.7em;
-  font-weight: bold;
-  color: darkorange;
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  font-family: Didot, serif;
-}
-
-/* Table Navigation Styles */
-
-header {
-  height: 20%;
-  background-image: url("header.jpg");
-  /* Image found on https://www.goodfreephotos.com */
-}
-
-table.nav {
-  min-height: 2em;
-  width: 100%;
-  border-collapse: collapse;
-}
-
-table.nav a {
-  display: block;
-  font-size: 0.8em;
-  font-weight: bold;
-  text-align: center;
-  color: orange;
-  text-transform: uppercase;
-  text-decoration: none;
-  border: 3px solid blue;
-}
-
-table.nav a:visited, table.nav a:link {
-  color: red;
-}
-
-table.nav a:hover, table.nav a:active {
-  background-color: indigo;
-  color: white;
-}
-
-a#navicon {
-  display: none;
-}
-
 /* Section Styles */
 section {
   width: 100%;
@@ -127,33 +53,24 @@ section img.review {
 
 table.image {
   border-collapse: collapse;
+  margin-left: 1%;
+  margin-right: 1%;
 }
 
-td {
+table.image td {
   padding: 0px 0px 0px 0px;
-  width: 16.5%;
+  width: 16.2%;
+}
+
+table.image img {
+  width: 9vw;
+  height: 9vw;
 }
 
 thead td {
   text-align: center;
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   font-size: 1.2em;
-}
-
-/* Footer Styles */
-
-footer {
-  clear: both;
-  width: 100%;
-}
-
-footer p {
-  text-align: center;
-  vertical-align: center;
-}
-
-footer a {
-  color: black;
 }
 
 

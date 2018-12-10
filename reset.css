@@ -34,12 +34,38 @@ html {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  font-family: Verdana, Geneva, sans-serif;
 }
 
 body {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  background-color: rgb(36, 248, 229);
+  box-shadow: white 10px 0px 25px, white -10px 0px 25px,
+              inset gray 10px 0px 50px, inset gray -10px 0px 50px;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
   line-height: 1.2em;
-  width: 60%
+  width: 60%;
+  min-width: 400px;
 }
+
+header h1 {
+  font-size: 1.7em;
+  font-weight: bold;
+  color: darkorange;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: Didot, serif;
+}
+
 
 ul, ol {
   list-style: none;
@@ -54,3 +80,56 @@ nav a {
   text-decoration: none;
 }
 
+/* Table Navigation Styles */
+
+header {
+  height: 20%;
+  background-image: url("header.jpg");
+  /* Image found on https://www.goodfreephotos.com */
+}
+
+table.nav {
+  min-height: 2em;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table.nav a {
+  display: block;
+  font-size: 0.8em;
+  font-weight: bold;
+  text-align: center;
+  color: orange;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 3px solid blue;
+}
+
+table.nav a:visited, table.nav a:link {
+  color: red;
+}
+
+table.nav a:hover, table.nav a:active {
+  background-color: indigo;
+  color: white;
+}
+
+a#navicon {
+  display: none;
+}
+
+/* Footer Styles */
+
+footer {
+  clear: both;
+  width: 100%;
+}
+
+footer p {
+  text-align: center;
+  vertical-align: center;
+}
+
+footer a {
+  color: black;
+}
