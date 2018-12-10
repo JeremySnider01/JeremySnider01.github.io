@@ -9,7 +9,7 @@
 */
 
 /* Section Styles */
-p {
+section p {
   text-align: center;
   font-size: 1.1em;
   margin-left: 5%;
@@ -22,7 +22,7 @@ table.education {
   margin-right: 1%;
 }
 
-table.education thead {
+table.education thead th {
   text-align: center;
   font-size: 1.1em;
 }
@@ -33,7 +33,7 @@ table.education th {
 
 table.education td {
   border: 5px solid white;
-  font-size: 0.95em
+  font-size: 0.95em;
 }
 
 table.education tr td:first-of-type {
