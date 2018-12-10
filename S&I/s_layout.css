@@ -9,4 +9,27 @@
 */
 
 /* Section Styles */ 
- 
+section {
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+section h1 {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+section dl dt.si {
+  font-size: 1.1em;
+}
+
+section dl dt {
+  font-weight: bold;
+  font-size: 1em;
+}
+
+section dl dd {
+  font-size: 1em;
+  margin-bottom: 1%;
+}
