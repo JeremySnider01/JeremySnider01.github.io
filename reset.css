@@ -89,7 +89,7 @@ header {
 }
 
 header img.navicon {
-  width: 7%;
+  width: 9%;
 }
 
 table.nav {
@@ -122,7 +122,6 @@ table.mnav {
   min-height: 2em;
   width: 100%;
   border-collapse: collapse;
-  border: 3px solid blue;
 }
 
 table.mnav a {
@@ -133,8 +132,8 @@ table.mnav a {
   color: orange;
   text-transform: uppercase;
   text-decoration: underline;
-  margin-top: 1%;
-  margin-bottom: 1%;
+  margin-top: 3%;
+  margin-bottom: 3%;
 }
 
 table.mnav a:visited, table.mnav a:link {
