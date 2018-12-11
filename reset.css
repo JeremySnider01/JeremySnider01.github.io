@@ -61,9 +61,11 @@ header h1 {
   font-weight: bold;
   color: darkorange;
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   font-family: Didot, serif;
+  background-image: url("header.jpg");
+  /* Image found on https://www.goodfreephotos.com */
 }
 
 
@@ -84,8 +86,10 @@ nav a {
 
 header {
   height: 20%;
-  background-image: url("header.jpg");
-  /* Image found on https://www.goodfreephotos.com */
+}
+
+header img.navicon {
+  width: 7%;
 }
 
 table.nav {
@@ -110,6 +114,34 @@ table.nav a:visited, table.nav a:link {
 }
 
 table.nav a:hover, table.nav a:active {
+  background-color: indigo;
+  color: white;
+}
+
+table.mnav {
+  min-height: 2em;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid blue;
+}
+
+table.mnav a {
+  display: block;
+  font-size: 0.8em;
+  font-weight: bold;
+  text-align: center;
+  color: orange;
+  text-transform: uppercase;
+  text-decoration: underline;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+table.mnav a:visited, table.mnav a:link {
+  color: red;
+}
+
+table.mnav a:hover, table.mnav a:active {
   background-color: indigo;
   color: white;
 }
