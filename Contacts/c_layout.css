@@ -9,4 +9,27 @@
 */
 
 /* Section Styles */ 
- 
+section p {
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 1%;
+} 
+
+section table.contacts {
+  text-align: center;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2%;
+}
+
+section table.contacts td, section table.contacts th {
+  border: 5px solid white;
+}
+
+section img {
+  width: 75%;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  margin-bottom: 1%;
+}
