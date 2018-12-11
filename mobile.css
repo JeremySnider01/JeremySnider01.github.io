@@ -45,6 +45,7 @@
 }
 
 @media only screen and (min-width: 641px) {
+  
   table.mnav {
     display: none;
   }
@@ -54,3 +55,23 @@
   /* Image found on https://www.goodfreephotos.com */
   }
 } 
+
+@media only print {
+  
+  html, body, header, section, table {
+    background: none;
+    color: black;
+  }
+  
+  body {
+    width: 100%;
+    box-shadow: none;
+    orphans: 3;
+    widows: 3;
+  }
+  
+  table.mnav, table.nav, table.image, section img {
+    display: none;
+  }
+
+}
