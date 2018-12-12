@@ -42,15 +42,23 @@ ol, ul, img {
 }
 
 p {
-  widows: 3;
-  orphans: 3;
+  width:100%;
+  widows: 10;
+  orphans: 10;
 }
 
-dl dd br:nth-of-type(odd)::after {
-  page-break-after: always;
+/* Index */
+div.grid {
+  display: block;
+  clear: both;
 }
 
-dd {
-  widows: 3;
-  orphans: 3;
+div.column-1-2 {
+  clear: both;
+  width: 100%;
+}
+
+dd p{
+  widows: 10;
+  orphans: 10;
 }
