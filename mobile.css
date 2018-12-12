@@ -29,7 +29,7 @@
     width: 100%;
   }
   
-  a#navicon:hover+table.mnav, header table.mnav td:hover {
+  a#navicon:hover+table.mnav, header table.mnav td:hover, header table.mnav td:active, header table.mnav:active {
     display: block;
   }
    
@@ -55,23 +55,3 @@
   /* Image found on https://www.goodfreephotos.com */
   }
 } 
-
-@media only print {
-  
-  html, body, header, section, table {
-    background: none;
-    color: black;
-  }
-  
-  body {
-    width: 100%;
-    box-shadow: none;
-    orphans: 3;
-    widows: 3;
-  }
-  
-  table.mnav, table.nav, table.image, section img {
-    display: none;
-  }
-
-}
