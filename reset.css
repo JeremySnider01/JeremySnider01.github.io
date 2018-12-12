@@ -103,19 +103,19 @@ table.nav a {
   font-size: 0.8em;
   font-weight: bold;
   text-align: center;
-  color: orange;
+  color: white;
   text-transform: uppercase;
   text-decoration: none;
   border: 3px solid blue;
 }
 
 table.nav a:visited, table.nav a:link {
-  color: red;
+  color: white;
 }
 
 table.nav a:hover, table.nav a:active {
-  background-color: indigo;
-  color: white;
+  background-color: azure;
+  color: black;
 }
 
 table.mnav {
@@ -129,7 +129,7 @@ table.mnav a {
   font-size: 0.8em;
   font-weight: bold;
   text-align: center;
-  color: orange;
+  color: black;
   text-transform: uppercase;
   text-decoration: underline;
   margin-top: 3%;
@@ -137,12 +137,12 @@ table.mnav a {
 }
 
 table.mnav a:visited, table.mnav a:link {
-  color: red;
+  color: black;
 }
 
 table.mnav a:hover, table.mnav a:active {
-  background-color: indigo;
-  color: white;
+  background-color: white;
+  color: black;
 }
 
 a#navicon {
