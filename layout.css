@@ -73,12 +73,29 @@ thead td {
   font-size: 1.2em;
 }
 
+section img.selfImg {
+  clear: both;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
 @media only screen and (max-width: 640px) {
+  
+  div.grid {
+    display: block;
+    clear: both;
+  }
+
+  div.column-1-2 {
+    clear: both;
+    width: 100%;
+  }
   
   section dl {
     text-align: center;
-    margin-left: 1%;
-    margin-right: 0;
+    margin-left: -1%;
+    padding-right: 4%;
   }
 }
 
