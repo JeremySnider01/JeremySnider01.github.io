@@ -27,10 +27,7 @@ section dt {
   font-weight: bold;
   font-family: Georgia, serif;
   margin-bottom: 1%;
-}
-
-section dt a {
-  color: black;
+  text-align: center;
 }
 
 section dt a:hover, section dt a:active {
